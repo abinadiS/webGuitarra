@@ -1,3 +1,4 @@
+import './header.css'
 import logo from '../img/logo.svg'
 import headerGuitarra from '../img/header_guitarra.png'
 const Header = () =>{
