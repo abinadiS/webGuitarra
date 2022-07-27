@@ -1,10 +1,8 @@
-
+import Header from "./components/header";
 const App =()=> {
 
   return (
-    <div>
-      <p>Abinadi Contreras</p>
-    </div>
+   <Header></Header>
   )
 }
 
