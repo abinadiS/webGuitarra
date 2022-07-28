@@ -1,5 +1,6 @@
 import Producto from "./productomain";
 import images from "../assets/images";
+import './main.css';
 const Main = () =>{
     return(
         <main className="productos productos__contenedor">
@@ -54,7 +55,6 @@ const Main = () =>{
                 imagen={images.guitar12} nombre="Guitar lab"
                 precio="$25"
                 enlace="#"/>
-                
             </div>
         </main>
     )
