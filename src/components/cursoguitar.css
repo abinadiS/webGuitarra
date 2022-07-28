@@ -1,0 +1,44 @@
+.cursos{
+    background-image:linear-gradient(to right, rgb(0 0 0 / .65),rgb(0 0 0 / .65) ), url('../assets/img/cursos_bg.jpg');
+    padding: 10rem 0;
+    margin: 10rem 0;
+    background-size: cover;
+    background-position: 50%;
+    padding: 5rem 0;
+}
+.cursos__texto{
+    color:var(--blanco);
+    text-align: center;
+    font-size: 2.4rem;
+}
+@media (min-width: 768px){ 
+    .cursos__grid{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    
+    }
+    
+    .cursos__contenido{
+    grid-column-start: 2;
+}
+
+}
+
+.cursos__enlace{
+    text-decoration: none;
+    margin-top: 2rem;
+    display: block;
+    color:var(--blanco);
+    padding:1rem 5rem;
+    border: 2px solid var(--primary);
+    text-align: center;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition-property: background-color;
+    transition-duration: 0.3s;
+}
+.cursos__enlace:hover{
+    background-color: var(--primary);
+    color: var(--blanco);
+}
