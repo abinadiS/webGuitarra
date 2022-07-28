@@ -1,6 +1,6 @@
 import './header.css'
-import logo from '../img/logo.svg'
-import headerGuitarra from '../img/header_guitarra.png'
+import logo from '../assets/img/logo.svg'
+import headerGuitarra from '../assets/img/header_guitarra.png'
 const Header = () =>{
     return(
         <div className="header">
