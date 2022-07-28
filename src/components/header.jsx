@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import './header.css'
 import logo from '../assets/img/logo.svg'
 import headerGuitarra from '../assets/img/header_guitarra.png'
@@ -10,10 +11,10 @@ const Header = () =>{
                         <img src={logo} alt="" className="header__logo" />
                     </a>
                     <nav className="navegacion">
-                        <a href="#" className="navegacion__enlace" >inicio</a>
-                        <a href="#" className="navegacion__enlace" >nosotros</a>
-                        <a href="#" className="navegacion__enlace" >blog</a>
-                        <a href="#" className="navegacion__enlace" >tienda</a>
+                        <NavLink to="/" exact className="navegacion__enlace" >Inicio</NavLink>
+                        <NavLink to="/nosotros" exact className="navegacion__enlace" >Nosotros</NavLink>
+                        <NavLink to="/blog" exact className="navegacion__enlace" >Blog</NavLink>
+                        <NavLink to="/tienda" exact className="navegacion__enlace" >Tienda</NavLink>
                     </nav>
                 </div>
               
