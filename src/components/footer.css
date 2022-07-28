@@ -1,0 +1,33 @@
+.footer{
+    background-color: var(--negro);
+    padding: 4rem 0;
+}
+.footer__nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+@media (min-width: 768px){ 
+    .footer__nav{
+        flex-direction: row;
+        gap:2rem
+    }
+    .footer__contenido{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.footer__enlace{
+    text-decoration: none;
+    color: var(--blanco);
+    font-weight: 700;
+}
+.footer__enlace:hover{
+   color:var(--primary)
+}
+.footer__copy{
+    text-align: center;
+    color: var(--blanco);
+    font-size: 3rem;
+}

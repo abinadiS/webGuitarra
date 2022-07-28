@@ -1,5 +1,6 @@
 
 import Curso from "./components/cursoguitar";
+import Footer from "./components/footer";
 import Header from "./components/header";
 import Main from "./components/main";
 
@@ -10,6 +11,7 @@ const App =()=> {
    <Header></Header>
    <Main></Main>
    <Curso/>
+   <Footer/>
    </>
   )
 }

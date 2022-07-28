@@ -1,10 +1,10 @@
 .cursos{
     background-image:linear-gradient(to right, rgb(0 0 0 / .65),rgb(0 0 0 / .65) ), url('../assets/img/cursos_bg.jpg');
     padding: 10rem 0;
-    margin: 10rem 0;
+    margin: 10rem 0 0 0;
     background-size: cover;
     background-position: 50%;
-    padding: 5rem 0;
+    padding: 5rem 0 ;
 }
 .cursos__texto{
     color:var(--blanco);
