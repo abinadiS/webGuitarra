@@ -10,6 +10,10 @@ import guitar9 from './img/guitarra_09.jpg';
 import guitar10 from './img/guitarra_10.jpg';
 import guitar11 from './img/guitarra_11.jpg';
 import guitar12 from './img/guitarra_12.jpg';
+import blog1    from './img/blog_1.jpg';
+import blog2    from './img/blog_2.jpg';
+import blog3    from './img/blog_3.jpg';
+import blog4    from './img/blog_4.jpg';
 
 
 
@@ -27,6 +31,10 @@ export default {
     "guitar10":guitar10,
     "guitar11":guitar11,
     "guitar12":guitar12,
+    "blog1":blog1,
+    "blog2":blog2,
+    "blog3":blog3,
+    "blog4":blog4
 }
     
 
