@@ -4,6 +4,7 @@
     background-position: 50%;
     padding: 5rem 0;
     position: relative;
+    height: 70vh;
    
 
 }
@@ -78,42 +79,4 @@
 }
 .navegacion__enlace:hover{
     background-color: var(--primary);
-}
-.modelo{
-    color:var(--blanco);
-    margin-top: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-}
-@media (min-width: 768px){ 
-    .modelo{
-        align-items: flex-start;
-        width: 50%;
-    }
-}
-.modelo__precio{
-    font-size: 2.7rem;
-    font-weight: 900;
-    color:var(--primary);
-    line-height: 0;
-}
-.modelo__enlace{
-    margin: 2rem 0  0 0;
-    text-decoration: none;
-    padding: 1rem 5rem;
-    border: 2px solid var(--primary);
-    color:var(--blanco);
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 1.4rem;
-    transition-property: background-color;
-    transition-duration: 0.3s;
-
-}
-
-.modelo__enlace:hover{
-    background-color: var(--primary);
-    color: var(--negro);
 }
