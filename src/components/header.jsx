@@ -14,7 +14,6 @@ const Header = () =>{
                         <NavLink to="/" exact className="navegacion__enlace" >Inicio</NavLink>
                         <NavLink to="/nosotros" exact className="navegacion__enlace" >Nosotros</NavLink>
                         <NavLink to="/blog" exact className="navegacion__enlace" >Blog</NavLink>
-                        <NavLink to="/tienda" exact className="navegacion__enlace" >Tienda</NavLink>
                     </nav>
                 </div>
               
